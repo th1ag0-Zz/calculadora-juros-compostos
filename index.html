@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-box">
+      <p>INVESTIMENTO</p>
+      <p>RENDIMENTO (%)</p>
+      <input id="invest" type="text">
+      <input id="percent" type="text">
+      <button onclick="calc()" type="button">Calcular</button>
+    </div>
+
+    <div class="results">
+      <div class="header-box">
+        <p>DIA</p>
+        <p>VALOR</p>
+        <p>META</p>
+      </div>
+      <div class="content-box">
+        <!--
+        <div class="line">
+          <p>2</p>
+          <p>2</p>
+          <p>2</p>
+        </div>
+        -->
+      </div>
+      
+    </div>
+
+    <div class="total-container">
+      <p>TOTAL</p>
+      <p class="total-value"></p>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+  
+</body>
+</html>
